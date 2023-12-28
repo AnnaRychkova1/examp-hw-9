@@ -1,0 +1,29 @@
+.main-list {
+  margin: 50px;
+}
+
+p {
+  margin: 20px;
+}
+
+.main-link { 
+  padding: 8px 32px;
+  border-radius: 20px;
+
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0 2px rgb(122, 252, 239), 0 1px #777;
+  background-color: rgb(237, 254, 252);
+
+  box-shadow: -5px -5px 5px #fff, 5px 5px 5px #babecc;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.main-link:hover,
+.main-link:active {
+  box-shadow: -2px -2px 15px #fff, 2px 2px 15px #babecc;
+  color: rgb(13, 13, 66);
+  text-shadow: 0 2px rgb(148, 208, 244), 0 1px #777;
+}
